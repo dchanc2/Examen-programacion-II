@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.blocdenotasPrueba.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.blocdenotasPrueba.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.blocdenotasPrueba.app-mergeDebugResources-46:/layout/activity_notas.xml",
+        "source": "com.example.blocdenotasPrueba.app-main-49:/layout/activity_notas.xml"
+    },
+    {
+        "merged": "com.example.blocdenotasPrueba.app-mergeDebugResources-46:/layout/fragment_item_list.xml",
+        "source": "com.example.blocdenotasPrueba.app-main-49:/layout/fragment_item_list.xml"
+    },
+    {
+        "merged": "com.example.blocdenotasPrueba.app-mergeDebugResources-46:/layout/fragment_nueva_nota_dialog.xml",
+        "source": "com.example.blocdenotasPrueba.app-main-49:/layout/fragment_nueva_nota_dialog.xml"
+    },
+    {
+        "merged": "com.example.blocdenotasPrueba.app-mergeDebugResources-46:/layout/fragment_item.xml",
+        "source": "com.example.blocdenotasPrueba.app-main-49:/layout/fragment_item.xml"
+    }
+]

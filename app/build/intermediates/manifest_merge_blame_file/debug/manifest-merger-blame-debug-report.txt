@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.blocdenotasPrueba"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:6:5-29:19
+12        android:allowBackup="true"
+12-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /Users/giovannigarcia/.gradle/caches/transforms-3/0638d9dacb5fd10604e28ec2b4d3c80b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.BlocDeNotas" >
+22-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:14:9-49
+23        <activity
+23-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:16:9-19:60
+24            android:name="com.example.blocdenotasPrueba.ui.DashboardActivity"
+24-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:17:13-49
+25            android:exported="false"
+25-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:18:13-37
+26            android:label="@string/title_activity_notas" />
+26-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:19:13-57
+27        <activity
+27-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:20:9-28:20
+28            android:name="com.example.blocdenotasPrueba.ui.MainActivity"
+28-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:21:13-44
+29            android:exported="true" >
+29-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:22:13-36
+30            <intent-filter>
+30-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:24:17-69
+31-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:26:17-77
+33-->/Users/giovannigarcia/AndroidStudioProjects/BlocdeNotas/app/src/main/AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[androidx.room:room-runtime:2.4.3] /Users/giovannigarcia/.gradle/caches/transforms-3/435fb858b783cfc10a1eb93e83edeeca/transformed/room-runtime-2.4.3/AndroidManifest.xml:25:9-28:40
+38            android:name="androidx.room.MultiInstanceInvalidationService"
+38-->[androidx.room:room-runtime:2.4.3] /Users/giovannigarcia/.gradle/caches/transforms-3/435fb858b783cfc10a1eb93e83edeeca/transformed/room-runtime-2.4.3/AndroidManifest.xml:26:13-74
+39            android:directBootAware="true"
+39-->[androidx.room:room-runtime:2.4.3] /Users/giovannigarcia/.gradle/caches/transforms-3/435fb858b783cfc10a1eb93e83edeeca/transformed/room-runtime-2.4.3/AndroidManifest.xml:27:13-43
+40            android:exported="false" />
+40-->[androidx.room:room-runtime:2.4.3] /Users/giovannigarcia/.gradle/caches/transforms-3/435fb858b783cfc10a1eb93e83edeeca/transformed/room-runtime-2.4.3/AndroidManifest.xml:28:13-37
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/giovannigarcia/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/giovannigarcia/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+44            android:authorities="com.example.blocdenotasPrueba.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/giovannigarcia/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/giovannigarcia/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/giovannigarcia/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/giovannigarcia/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/giovannigarcia/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/giovannigarcia/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/giovannigarcia/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/giovannigarcia/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+52        </provider>
+53
+54        <uses-library
+54-->[androidx.window:window:1.0.0] /Users/giovannigarcia/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+55            android:name="androidx.window.extensions"
+55-->[androidx.window:window:1.0.0] /Users/giovannigarcia/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] /Users/giovannigarcia/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+57        <uses-library
+57-->[androidx.window:window:1.0.0] /Users/giovannigarcia/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+58            android:name="androidx.window.sidecar"
+58-->[androidx.window:window:1.0.0] /Users/giovannigarcia/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+59            android:required="false" />
+59-->[androidx.window:window:1.0.0] /Users/giovannigarcia/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+60    </application>
+61
+62</manifest>
